@@ -1,0 +1,1 @@
+// how the frontend will communicate with the backend

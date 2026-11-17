@@ -1,0 +1,1 @@
+// opens/creates the database, enables foreign key constraints, and exports connection
