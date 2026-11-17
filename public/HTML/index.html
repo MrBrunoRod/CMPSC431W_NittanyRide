@@ -2,12 +2,50 @@
 
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>Login</title>
+  <script src="../JavaScript/login.js" defer></script>
 </head>
+
 <body>
-  
+  <main id="login-page">
+
+    <form id="login-form" method="GET">
+
+      <fieldset class="user-info">
+        <legend>Sign in to your account</legend>
+
+        <div>
+          <label for="user-role">I am a</label>
+          <select name="userRole" id="user-role" autocomplete="off" required>
+            <option value="" disabled selected>Select account type</option>
+            <option value="rider">Rider</option>
+            <option value="driver">Driver</option>
+            <option value="support">Support Staff</option>
+          </select>
+        </div>
+
+        <div>
+          <label for="email">Email</label>
+          <input name="email" id="email" type="email" autocomplete="email" placeholder="you@example.com" required />
+        </div>
+
+        <div>
+          <label for="user-password">Password</label>
+          <input name="userPassword" id="user-password" type="password" autocomplete="current-password" placeholder="Password123" required />
+        </div>
+      </fieldset>
+
+      <div id="signin-button">
+        <input type="submit" value="Sign In" />
+      </div>
+
+    </form>
+  </main>
+
 </body>
+
 </html>

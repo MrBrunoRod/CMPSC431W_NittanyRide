@@ -1,0 +1,75 @@
+<!-- Will likely need to make more html files (one for rider, one for driver, and one for support; could also just be the one if we manage to) -->
+<!-- figure out how to make one page display different information depending on what kind of user logs in.  -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rider Page</title>
+</head>
+
+<body>
+
+  <nav aria-label="Main">
+    <a href="settingsPage.html">Settings</a>
+    <a href="index.html">Log Out</a>
+  </nav>
+
+  <main>
+
+    <h2>Welcome User</h2>
+    <p>Rider · [user email here]</p>
+
+    <section>
+      <h2>Request a Ride</h2>
+
+      <form id="ride-request-form">
+        <fieldset>
+          <legend>Ride details</legend>
+
+          <div>
+            <label for="pickup-location">Pickup location</label>
+            <input name="pickupLocation" id="pickup-location" type="text" required />
+          </div>
+
+          <div>
+            <label for="dropoff-location">Drop-off location</label>
+            <input name="dropoffLocation" id="dropoff-location" type="text" required />
+          </div>
+
+          <div>
+            <label for="ride-notes">Notes for driver (optional)</label>
+            <textarea name="rideNotes" id="ride-notes" rows="3"></textarea>
+          </div>
+        </fieldset>
+
+        <div>
+          <input type="submit" value="Request Ride" />
+        </div>
+      </form>
+    </section>
+
+    <section>
+      <h2>Current Ride Request</h2>
+      <p><strong>Status:</strong> [status (i.e., pending, finished, etc)]</p>
+      <p><strong>Pickup:</strong> [pickup location] </p>
+      <p><strong>Drop-off:</strong> [drop off location] </p>
+      <p><strong>Requested:</strong> [whenever requested (i.e., date, time, etc)] </p>
+    </section>
+
+    <section>
+      <h2>Past Rides</h2>
+      <p>Awating info...</p>
+    </section>
+
+    <section>
+      <h2>Lost Item Reports</h2>
+      <p>Awaiting info...</p>
+    </section>
+
+  </main>
+</body>
+
+</html>
