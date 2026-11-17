@@ -1,0 +1,16 @@
+offeringID,vehiclePlate,categoryID,fareRate,offerStatus
+1,PA-KLM4821,1,14.5,open
+2,PA-JRT9102,2,16.0,open
+3,PA-BVC3341,3,12.0,open
+4,PA-XZW7780,4,26.5,open
+5,PA-MNB5519,4,13.75,open
+6,PA-QWE8823,3,15.25,open
+7,PA-ASD1190,2,11.5,closed
+8,PA-ZXC6642,1,22.0,open
+9,NY-GHJ4018,3,14.0,open
+10,OH-TYU9275,2,32.0,open
+11,PA-PLM2094,3,38.0,open
+12,PA-OKN7361,4,35.5,open
+13,PA-XZW7780,1,30.0,open
+14,PA-ZXC6642,1,28.0,closed
+15,PA-JRT9102,3,21.0,open

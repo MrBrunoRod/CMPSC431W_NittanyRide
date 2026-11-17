@@ -17,7 +17,7 @@ Before running the project, make sure the following is installed:
 1. Clone the repository:
 
    ```bash
-   git clone YOUR_REPOSITORY_URL
+   git clone git@github.com:MrBrunoRod/CMPSC431W_NittanyRide.git
    ```
 
 2. Navigate to the project directory:

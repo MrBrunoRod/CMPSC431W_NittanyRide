@@ -1,0 +1,13 @@
+questionID,riderEmail,offeringID,questionText
+1,alice.miller@example.com,1,Does your trunk fit two large suitcases?
+2,bob.johnson@example.com,4,Can the Explorer comfortably seat 6 adults with backpacks?
+3,charlie.davis@example.com,8,Is there a phone charger available in the back seat?
+4,diana.prince@example.com,11,Are pets in a carrier allowed on the van shuttle?
+5,ethan.hunt@example.com,12,Do you offer curbside pickup at the main terminal?
+6,fiona.gallagher@example.com,2,Is there room for a folding stroller in the CR-V?
+7,george.costanza@example.com,10,Does the Telluride have captain chairs in the second row?
+8,hannah.abbott@example.com,6,Can we make a quick 2-minute stop at a coffee shop on the way?
+9,ian.malcolm@example.com,13,Is bottled water provided for Luxury SUV bookings?
+10,julia.child@example.com,5,How early should I schedule a morning pickup for the airport?
+11,laura.palmer@example.com,9,Do you operate late at night after midnight?
+12,miles.morales@example.com,10,Is child booster seating available upon request?

@@ -1,0 +1,11 @@
+requestID,orderID,requestStatus,requestDescription
+1,16,open,Charged higher fare due to unexpected detour on highway.
+2,17,resolved,Cancelled within 1 minute of booking; requesting cancellation fee waiver.
+3,6,resolved,Promo code did not apply properly at checkout.
+4,12,unassigned,Receipt PDF is not downloading from my order history.
+5,3,open,Pickup pin placed me across the street from actual location.
+6,11,resolved,Split fare feature failed to charge secondary rider.
+7,1,resolved,Needed itemized receipt for university travel reimbursement.
+8,18,unassigned,App showed driver arrived 5 minutes before vehicle pulled up.
+9,7,resolved,Duplicate authorization hold appeared on Amex statement.
+10,9,open,Toll charge added twice on final trip invoice.
