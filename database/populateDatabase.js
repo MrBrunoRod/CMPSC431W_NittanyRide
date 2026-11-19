@@ -49,9 +49,7 @@ const insertRecords = (tableName, records) => {
 
   const cols = Object.keys(records[0]);
 
-  const databaseColumns = db.prepare(`PRAGMA table_info("${tableName}")`)
-                              .all()
-                              .map(cols => cols.name);
+  const databaseColumns = db.prepare(`PRAGMA table_info("${tableName}")`).all().map(cols => cols.name);
   
   for (const col of cols) {
     if (!databaseColumns.includes(col)) {

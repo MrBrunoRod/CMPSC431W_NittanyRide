@@ -13,7 +13,7 @@
 <body>
   <main id="login-page">
 
-    <form id="login-form" method="GET">
+    <form id="login-form" method="POST">
 
       <fieldset class="user-info">
         <legend>Sign in to your account</legend>
@@ -38,6 +38,10 @@
           <input name="userPassword" id="user-password" type="password" autocomplete="current-password" placeholder="Password123" required />
         </div>
       </fieldset>
+
+      <div id="error-area">
+        <p id="error-message"></p>
+      </div>
 
       <div id="signin-button">
         <input type="submit" value="Sign In" />
