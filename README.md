@@ -59,7 +59,7 @@ node server.js
 Open the application in your browser at:
 
 ```text
-http://localhost:3000
+http://localhost:3000/HTML/index.html
 ```
 
 ## Project Structure
@@ -86,4 +86,4 @@ CMPSC431W_NittanyRide/
 
 - Run the database setup and data population commands before starting the application.
 - The application runs locally on port 3000.
-- Do not manually edit the generated SQLite database unless necessary.
+- Do not manually edit the generated SQLite database.
