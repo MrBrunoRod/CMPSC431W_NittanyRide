@@ -8,6 +8,8 @@ const rolePages = {
 
 const form = document.getElementById("login-form");
 const roleSelect = document.getElementById("user-role");
+const emailInput = document.getElementById("email");
+const userInput = document.getElementById("user-password");
 
 form.addEventListener("submit", (event) =>{
     event.preventDefault();
