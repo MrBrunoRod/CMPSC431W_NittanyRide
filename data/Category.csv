@@ -1,0 +1,13 @@
+categoryID,categoryName,parentID
+1,Standard Rides,
+2,Premium & Luxury,
+3,Group & XL,
+4,Eco-Friendly,
+5,Economy Sedan,1
+6,Compact Saver,1
+7,Executive Black,2
+8,Luxury SUV,2
+9,RideXL,3
+10,Van Shuttle,3
+11,Hybrid Ride,4
+12,Zero-Emission EV,4

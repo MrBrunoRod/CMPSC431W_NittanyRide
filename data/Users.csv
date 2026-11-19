@@ -1,0 +1,25 @@
+email,userPassword,fullName,phone,userRole
+alice.miller@example.com,Pass123!Alice,Alice Miller,814-555-0101,rider
+bob.johnson@example.com,Pass123!Bob,Bob Johnson,814-555-0102,rider
+charlie.davis@example.com,Pass123!Charlie,Charlie Davis,814-555-0103,rider
+diana.prince@example.com,Pass123!Diana,Diana Prince,412-555-0104,rider
+ethan.hunt@example.com,Pass123!Ethan,Ethan Hunt,412-555-0105,rider
+fiona.gallagher@example.com,Pass123!Fiona,Fiona Gallagher,814-555-0106,rider
+george.costanza@example.com,Pass123!George,George Costanza,215-555-0107,rider
+hannah.abbott@example.com,Pass123!Hannah,Hannah Abbott,814-555-0108,rider
+ian.malcolm@example.com,Pass123!Ian,Ian Malcolm,412-555-0109,rider
+julia.child@example.com,Pass123!Julia,Julia Child,215-555-0110,rider
+kevin.malone@example.com,Pass123!Kevin,Kevin Malone,814-555-0111,rider
+laura.palmer@example.com,Pass123!Laura,Laura Palmer,716-555-0112,rider
+miles.morales@example.com,Pass123!Miles,Miles Morales,216-555-0113,rider
+nina.sharp@example.com,Pass123!Nina,Nina Sharp,814-555-0114,rider
+marcus.vance@example.com,Drive123!Marcus,Marcus Vance,814-555-0201,driver
+elena.rodriguez@example.com,Drive123!Elena,Elena Rodriguez,814-555-0202,driver
+david.kim@example.com,Drive123!David,David Kim,412-555-0203,driver
+sarah.connor@example.com,Drive123!Sarah,Sarah Connor,412-555-0204,driver
+tariq.hassan@example.com,Drive123!Tariq,Tariq Hassan,814-555-0205,driver
+claire.bennet@example.com,Drive123!Claire,Claire Bennet,215-555-0206,driver
+walter.bishop@example.com,Drive123!Walter,Walter Bishop,814-555-0207,driver
+maya.lin@example.com,Drive123!Maya,Maya Lin,412-555-0208,driver
+lucas.sinclair@example.com,Drive123!Lucas,Lucas Sinclair,716-555-0209,driver
+chloe.decker@example.com,Drive123!Chloe,Chloe Decker,216-555-0210,driver
