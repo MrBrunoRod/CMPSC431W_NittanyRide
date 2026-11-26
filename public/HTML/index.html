@@ -1,55 +1,85 @@
-<!-- Place the login page html code here. Link the script handling verification to a file in the JavaScript folder -->
 
 <!DOCTYPE html>
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Login</title>
-  <script src="../JavaScript/login.js" defer></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>NittanyRide | Login</title>
+
+    <link rel="stylesheet" href="../CSS/index.css">
+
+    <script src="../JavaScript/login.js" defer></script>
 </head>
 
 <body>
-  <main id="login-page">
+    <main id="login-page">
 
-    <form id="login-form" method="POST">
-
-      <fieldset class="user-info">
-        <legend>Sign in to your account</legend>
-
-        <div>
-          <label for="user-role">I am a</label>
-          <select name="userRole" id="user-role" autocomplete="off" required>
-            <option value="" disabled selected>Select account type</option>
-            <option value="rider">Rider</option>
-            <option value="driver">Driver</option>
-            <option value="support">Support Staff</option>
-          </select>
+        <div class="logo-container">
+            <img src="../image/image.png"
+              alt="NittanyRide Logo"
+              class="nittanyride-logo">
         </div>
 
-        <div>
-          <label for="email">Email</label>
-          <input name="email" id="email" type="email" autocomplete="email" placeholder="you@example.com" required />
-        </div>
+        <form id="login-form" method="POST">
 
-        <div>
-          <label for="user-password">Password</label>
-          <input name="userPassword" id="user-password" type="password" autocomplete="current-password" placeholder="Password123" required />
-        </div>
-      </fieldset>
+            <fieldset class="user-info">
 
-      <div id="error-area">
-        <p id="error-message"></p>
-      </div>
+                <legend>Sign in to your account</legend>
 
-      <div id="signin-button">
-        <input type="submit" value="Sign In" />
-      </div>
+                <div>
+                    <label for="user-role">I am a</label>
 
-    </form>
-  </main>
+                    <select name="userRole" id="user-role"
+                            autocomplete="off" required>
 
+                        <option value="" disabled selected>
+                            Select account type
+                        </option>
+
+                        <option value="rider">Rider</option>
+                        <option value="driver">Driver</option>
+                        <option value="support">Support Staff</option>
+
+                    </select>
+                </div>
+
+                <div>
+                    <label for="email">Email</label>
+
+                    <input name="email"
+                           id="email"
+                           type="email"
+                           autocomplete="email"
+                           placeholder="you@example.com"
+                           required />
+                </div>
+
+                <div>
+                    <label for="user-password">Password</label>
+
+                    <input name="userPassword"
+                           id="user-password"
+                           type="password"
+                           autocomplete="current-password"
+                           placeholder="Password123"
+                           required />
+                </div>
+
+            </fieldset>
+
+            <div id="error-area">
+                <p id="error-message"></p>
+            </div>
+
+            <div id="signin-button">
+                <input type="submit" value="Sign In" />
+            </div>
+
+        </form>
+
+    </main>
 </body>
 
 </html>
