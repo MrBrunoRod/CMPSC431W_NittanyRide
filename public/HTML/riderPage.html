@@ -7,23 +7,19 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../CSS/riderPage.css">
   <title>Rider Page</title>
 </head>
 
 <body>
 
-  <nav aria-label="Main">
-    <a href="settingsPage.html">Settings</a>
-    <a href="index.html">Log Out</a>
-  </nav>
-
   <main>
-
-    <h2>Welcome User</h2>
-    <p>Rider · [user email here]</p>
-
     <section>
-      <h2>Request a Ride</h2>
+      <div class = "mid">
+        <h2>Welcome User</h2>
+        <p>Rider · [user email here]</p>
+        <h2>Request a Ride</h2>
+      </div>
 
       <form id="ride-request-form">
         <fieldset>
@@ -46,7 +42,7 @@
         </fieldset>
 
         <div>
-          <input type="submit" value="Request Ride" />
+          <input type="submit" value="Request Ride" id ="request" />
         </div>
       </form>
     </section>
@@ -68,6 +64,11 @@
       <h2>Lost Item Reports</h2>
       <p>Awaiting info...</p>
     </section>
+
+    <nav aria-label="Main">
+      <a href="settingsPage.html">Settings</a>
+      <a href="index.html">Log Out</a>
+    </nav>
 
   </main>
 </body>
